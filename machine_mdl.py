@@ -26,7 +26,7 @@ for year in sheet_years:
     all_data = pd.concat([all_data, df], ignore_index=True)
 
 # Define the standard column order
-expected_columns = ['Year', 'Manufacturer', 'Model', 'LTE', 'Unlocked','Price ($)', 'Storage (GB)', 'Color', 'Weight (lbs)']
+expected_columns = ['Year', 'Manufacturer', 'Model', 'LTE', 'Unlocked', 'Storage (GB)', 'Color', 'Weight (lbs)','Price ($)']
 
 # Process each year
 for i in range(1, num_years + 1):
